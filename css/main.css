@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+:root {
+    --gray-back: #949494;
+    --gray: #2D2D2D;
+    --black: #000000;;
+    --yellow: #DC911B;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+.services__card__security{
+    padding-top: 60px;
+    display: flex;
+    gap: 140px;
+}
+.card-title{
+    color: var(--black);
+    font-size: 24px;
+    font-weight: bold;
+}
